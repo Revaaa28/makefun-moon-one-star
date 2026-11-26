@@ -6,6 +6,8 @@ Writes the chosen review to /output/entry.txt (UTF-8, 1-120 chars).
 import os
 
 LINE = (
+    # 384,400 km is the real Earth-Moon distance; 1969 is the year of Apollo 11,
+    # so the support line has been busy since the first Moon landing.
     "\u2605\u2606\u2606\u2606\u2606 Ordered a full moon, got a crescent. "
     "Customer service is 384,400 km away and the line has been busy since 1969."
 )
